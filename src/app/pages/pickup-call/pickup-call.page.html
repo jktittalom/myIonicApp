@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pickup Call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card>
+  <ion-card-content>
+    <p>Address: sdafadsfasdf</p>
+    <p>Street: sdafadsfasdf</p>
+    <p>Zip: 201013</p>
+    <p>State: UP</p>
+  </ion-card-content>
+</ion-card>
+<ion-list>
+  <ion-item lines="inset">
+    <ion-label position="floating">Notes</ion-label>
+    <ion-textarea></ion-textarea>
+  </ion-item>
+</ion-list>
+<ion-button size="full" color="success" (click)="newPickupCall()">Create Pickup Call</ion-button>
+</ion-content>
