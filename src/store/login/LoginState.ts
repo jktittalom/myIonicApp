@@ -3,5 +3,5 @@ export interface LoginState {
     isRecoveredPassword: boolean;
     isRecoveringPassword: boolean;
     isLoggedIn: boolean;
-    isLoggingin: boolean;
+    isLoggingIn: boolean;
 }
